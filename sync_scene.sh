@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definir el nombre de la escena (cambia esto si usas otro nombre)
-SCENE_PATH="Assets/Scenes/BasicScene.unity"
+SCENE_PATH="Assets/Scenes/Level.unity"
 
 # Verificar si la escena ha cambiado
 git status | grep "$SCENE_PATH" > /dev/null
